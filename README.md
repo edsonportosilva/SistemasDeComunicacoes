@@ -1,5 +1,5 @@
-# CommunicationSystems
+# Sistemas de Comunicações
 
-Simulation code to support the lectures of the course of Communications Systems at the Electrical Engineering Department of the Federal University of Campina Grande (UFCG)
+Material de apoio e códigos de simulação utilizados nas aulas da disciplina Sistemas de Comunicações do curso de Engenharia Elétrica da Universidade Federal de Campina Grande (UFCG).
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/edsonportosilva/sistemas/HEAD?urlpath=lab)
