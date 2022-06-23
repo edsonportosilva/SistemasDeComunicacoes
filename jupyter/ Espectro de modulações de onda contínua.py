@@ -17,7 +17,7 @@
 
 # + [markdown] toc=true
 # <h1>Sumário<span class="tocSkip"></span></h1>
-# <div class="toc"><ul class="toc-item"><li><span><a href="#Carrega-sinais-de-áudio" data-toc-modified-id="Carrega-sinais-de-áudio-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Carrega sinais de áudio</a></span><ul class="toc-item"><li><span><a href="#Plota-sinais-no-domínio-do-tempo" data-toc-modified-id="Plota-sinais-no-domínio-do-tempo-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Plota sinais no domínio do tempo</a></span></li><li><span><a href="#Plota-densidades-espectrais-de-potência" data-toc-modified-id="Plota-densidades-espectrais-de-potência-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>Plota densidades espectrais de potência</a></span></li></ul></li><li><span><a href="#Modulação-AM-DSB-SC" data-toc-modified-id="Modulação-AM-DSB-SC-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Modulação AM-DSB-SC</a></span><ul class="toc-item"><li><span><a href="#Demodulação-síncrona-AM-DSB-SC" data-toc-modified-id="Demodulação-síncrona-AM-DSB-SC-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Demodulação síncrona AM-DSB-SC</a></span></li><li><span><a href="#Áudio-demodulado-AM-DSB-SC" data-toc-modified-id="Áudio-demodulado-AM-DSB-SC-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Áudio demodulado AM-DSB-SC</a></span></li></ul></li><li><span><a href="#Modulação-AM-SSB" data-toc-modified-id="Modulação-AM-SSB-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Modulação AM-SSB</a></span><ul class="toc-item"><li><span><a href="#USB-e-LSB" data-toc-modified-id="USB-e-LSB-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>USB e LSB</a></span></li><li><span><a href="#Demodulação-síncrona-AM-SSB" data-toc-modified-id="Demodulação-síncrona-AM-SSB-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Demodulação síncrona AM-SSB</a></span></li><li><span><a href="#Áudio-demodulado-AM-SSB" data-toc-modified-id="Áudio-demodulado-AM-SSB-3.3"><span class="toc-item-num">3.3&nbsp;&nbsp;</span>Áudio demodulado AM-SSB</a></span></li></ul></li><li><span><a href="#Modulação-AM-ISB" data-toc-modified-id="Modulação-AM-ISB-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Modulação AM-ISB</a></span><ul class="toc-item"><li><span><a href="#Demodulação-síncrona-AM-ISB" data-toc-modified-id="Demodulação-síncrona-AM-ISB-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Demodulação síncrona AM-ISB</a></span></li><li><span><a href="#Áudio-demodulado-AM-ISB-(sem-filtragem-passa-faixa)" data-toc-modified-id="Áudio-demodulado-AM-ISB-(sem-filtragem-passa-faixa)-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Áudio demodulado AM-ISB (sem filtragem passa-faixa)</a></span></li><li><span><a href="#Filtragem-passa-faixa" data-toc-modified-id="Filtragem-passa-faixa-4.3"><span class="toc-item-num">4.3&nbsp;&nbsp;</span>Filtragem passa-faixa</a></span></li><li><span><a href="#Áudio-demodulado-AM-ISB-(com-filtragem-passa-faixa)" data-toc-modified-id="Áudio-demodulado-AM-ISB-(com-filtragem-passa-faixa)-4.4"><span class="toc-item-num">4.4&nbsp;&nbsp;</span>Áudio demodulado AM-ISB (com filtragem passa-faixa)</a></span></li></ul></li><li><span><a href="#Modulação-QAM" data-toc-modified-id="Modulação-QAM-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Modulação QAM</a></span><ul class="toc-item"><li><span><a href="#Demodulação-síncrona-QAM" data-toc-modified-id="Demodulação-síncrona-QAM-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Demodulação síncrona QAM</a></span></li><li><span><a href="#Áudio-demodulado-QAM" data-toc-modified-id="Áudio-demodulado-QAM-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Áudio demodulado QAM</a></span></li></ul></li></ul></div>
+# <div class="toc"><ul class="toc-item"><li><span><a href="#Carrega-sinais-de-áudio" data-toc-modified-id="Carrega-sinais-de-áudio-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Carrega sinais de áudio</a></span><ul class="toc-item"><li><span><a href="#Plota-sinais-no-domínio-do-tempo" data-toc-modified-id="Plota-sinais-no-domínio-do-tempo-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Plota sinais no domínio do tempo</a></span></li><li><span><a href="#Plota-densidades-espectrais-de-potência" data-toc-modified-id="Plota-densidades-espectrais-de-potência-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>Plota densidades espectrais de potência</a></span></li></ul></li><li><span><a href="#Modulação-AM-DSB-SC" data-toc-modified-id="Modulação-AM-DSB-SC-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Modulação AM-DSB-SC</a></span><ul class="toc-item"><li><span><a href="#Demodulação-síncrona-AM-DSB-SC" data-toc-modified-id="Demodulação-síncrona-AM-DSB-SC-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Demodulação síncrona AM-DSB-SC</a></span></li><li><span><a href="#Áudio-demodulado-AM-DSB-SC" data-toc-modified-id="Áudio-demodulado-AM-DSB-SC-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Áudio demodulado AM-DSB-SC</a></span></li></ul></li><li><span><a href="#Modulação-AM-DSB" data-toc-modified-id="Modulação-AM-DSB-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Modulação AM-DSB</a></span><ul class="toc-item"><li><span><a href="#Demodulação-por-envoltória-AM-DSB" data-toc-modified-id="Demodulação-por-envoltória-AM-DSB-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Demodulação por envoltória AM-DSB</a></span></li><li><span><a href="#Áudio-demodulado-AM-DSB" data-toc-modified-id="Áudio-demodulado-AM-DSB-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Áudio demodulado AM-DSB</a></span></li></ul></li><li><span><a href="#Modulação-AM-SSB" data-toc-modified-id="Modulação-AM-SSB-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Modulação AM-SSB</a></span><ul class="toc-item"><li><span><a href="#USB-e-LSB" data-toc-modified-id="USB-e-LSB-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>USB e LSB</a></span></li><li><span><a href="#Demodulação-síncrona-AM-SSB" data-toc-modified-id="Demodulação-síncrona-AM-SSB-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Demodulação síncrona AM-SSB</a></span></li><li><span><a href="#Áudio-demodulado-AM-SSB" data-toc-modified-id="Áudio-demodulado-AM-SSB-4.3"><span class="toc-item-num">4.3&nbsp;&nbsp;</span>Áudio demodulado AM-SSB</a></span></li></ul></li><li><span><a href="#Modulação-AM-ISB" data-toc-modified-id="Modulação-AM-ISB-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Modulação AM-ISB</a></span><ul class="toc-item"><li><span><a href="#Demodulação-síncrona-AM-ISB" data-toc-modified-id="Demodulação-síncrona-AM-ISB-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Demodulação síncrona AM-ISB</a></span></li><li><span><a href="#Áudio-demodulado-AM-ISB-(sem-filtragem-passa-faixa)" data-toc-modified-id="Áudio-demodulado-AM-ISB-(sem-filtragem-passa-faixa)-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Áudio demodulado AM-ISB (sem filtragem passa-faixa)</a></span></li><li><span><a href="#Filtragem-passa-faixa" data-toc-modified-id="Filtragem-passa-faixa-5.3"><span class="toc-item-num">5.3&nbsp;&nbsp;</span>Filtragem passa-faixa</a></span></li><li><span><a href="#Áudio-demodulado-AM-ISB-(com-filtragem-passa-faixa)" data-toc-modified-id="Áudio-demodulado-AM-ISB-(com-filtragem-passa-faixa)-5.4"><span class="toc-item-num">5.4&nbsp;&nbsp;</span>Áudio demodulado AM-ISB (com filtragem passa-faixa)</a></span></li></ul></li><li><span><a href="#Modulação-QAM" data-toc-modified-id="Modulação-QAM-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Modulação QAM</a></span><ul class="toc-item"><li><span><a href="#Demodulação-síncrona-QAM" data-toc-modified-id="Demodulação-síncrona-QAM-6.1"><span class="toc-item-num">6.1&nbsp;&nbsp;</span>Demodulação síncrona QAM</a></span></li><li><span><a href="#Áudio-demodulado-QAM" data-toc-modified-id="Áudio-demodulado-QAM-6.2"><span class="toc-item-num">6.2&nbsp;&nbsp;</span>Áudio demodulado QAM</a></span></li></ul></li></ul></div>
 
 # +
 from scipy.signal import firwin, lfilter, freqz, hilbert
@@ -221,6 +221,60 @@ x_demod = x_demod/abs(x_demod).max(0)
 wavfile.write('voz1_demodAMDSBSC.wav', int(Fs), x_demod.astype(np.float32))
 
 IPython.display.Audio('voz1_demodAMDSBSC.wav')
+# -
+
+# ## Modulação AM-DSB
+
+# +
+ka = 1 # índice de modulação AM-DSB
+
+x = x/np.max(np.abs(x))
+
+# Modula sinal de voz DSB e plota espectro do sinal modulado:
+s_dsb = (1 + ka*x)*np.cos(2*π*fc_tx*t + θ)
+
+Ps = potSinal(s_dsb) # calcula potência do sinal modulado
+
+t_plot = np.arange(1500)*1/Fs
+
+plt.figure(figsize =(12,4))
+plt.plot(t_plot, s_dsb[0:t_plot.size], linewidth=0.8, label='sinal modulado AM-DSB')
+plt.xlabel('tempo(s)')
+plt.ylabel('$s(t)$')
+plt.xlim(np.min(t_plot), np.max(t_plot))
+plt.legend()
+plt.grid()
+
+plt.figure(figsize =(12,4))
+plt.psd(s_dsb, Fs=Fs, label='DEP do sinal AM-DSB-SC',sides='twosided', linewidth=0.8, NFFT=4096); # estima DEP do sinal
+plt.legend();
+plt.xlim(-Fs/2,Fs/2);
+plt.grid(True)
+# -
+
+# ### Demodulação por envoltória AM-DSB
+
+# +
+s_demod  = np.abs(s_dsb)  # demodulação por envoltória
+s_demod  = s_demod - np.mean(s_demod)
+x_demod  = filterNoDelay(g, s_demod)  # filtragem passa-baixa
+
+plt.figure(figsize =(12,4))
+plt.psd(s_demod, Fs=Fs, label='DEP do sinal após o mixer',sides='twosided', linewidth=0.8, NFFT=4096); # estima DEP do sinal
+plt.psd(x_demod, Fs=Fs, label='DEP do sinal após o fpb',sides='twosided', linewidth=0.8, NFFT=4096); # estima DEP do sinal
+plt.legend();
+plt.xlim(-Fs/2,Fs/2);
+plt.grid(True)
+# -
+
+# ### Áudio demodulado AM-DSB
+
+# +
+x_demod = x_demod/abs(x_demod).max(0)
+
+wavfile.write('voz_demodAMDSB.wav', int(Fs), x_demod.astype(np.float32))
+
+IPython.display.Audio('voz_demodAMDSB.wav')
 # -
 
 # ## Modulação AM-SSB
