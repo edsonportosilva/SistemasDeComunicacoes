@@ -31,13 +31,18 @@ import IPython
 
 # bandpass FIR filter.
 def bandpass_firwin(ntaps, lowcut, highcut, Fs, window='hamming'):    
-    taps = firwin(ntaps, [lowcut, highcut], fs=Fs, pass_zero=False, window=window, scale=True)
-    return taps
+    return firwin(
+        ntaps,
+        [lowcut, highcut],
+        fs=Fs,
+        pass_zero=False,
+        window=window,
+        scale=True,
+    )
 
 # lowpass FIR filter.
 def lowpass_firwin(ntaps, fcut, Fs, window='hamming'):    
-    taps = firwin(ntaps, fcut, fs=Fs, window=window, scale=True)
-    return taps
+    return firwin(ntaps, fcut, fs=Fs, window=window, scale=True)
 
 # função para calcular a potência de um sinal
 def potSinal(x):
